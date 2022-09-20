@@ -1,7 +1,11 @@
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
+
 function App() {
   return (
     <div className="App">
-      <header>
+      {/* <header>
         <nav className="left-menu">
           <ul>
             <li>About</li>
@@ -44,9 +48,12 @@ function App() {
 
       <footer>
         <p className="country">United Kingdom</p>
-      </footer>
+      </footer> */}
+      <Header />
+      <Main />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
